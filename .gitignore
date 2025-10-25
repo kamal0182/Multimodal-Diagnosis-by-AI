@@ -1,2 +1,8 @@
 /Data/
 .idea/
+/Models/
+/my_project_env/
+/venvf/
+/.venv/
+requirements.txt
+message.bat
