@@ -1,0 +1,22 @@
+# data2.yaml
+# Utilisé pour l'entraînement AVEC augmentation (associé aux hyperparamètres par défaut)
+
+# ________________ 1. Chemins des Dossiers de Données ________________
+
+# Le chemin racine (parent) de vos dossiers 'images' et 'labels' filtrés.
+# **MODIFIEZ ce chemin si nécessaire.**
+path: C:/Users/boume/Multimodal-Diagnosis-by-AI/Data/Output
+
+# Chemins des ensembles d'images, relatifs à 'path'.
+train: images/train  # Images d'entraînement
+val: images/val    # Images de validation
+test: images/test    # Images de test (optionnel)
+
+# ________________ 2. Classes ________________
+
+# Nombre de classes. **REMPLACEZ '2' par votre nombre réel.**
+nc: 4 
+
+# Noms des classes dans l'ordre de leur index (0, 1, ...).
+# **REMPLACEZ par les noms réels de vos classes.**
+names: [ 'Glioma', 'Meningioma','No Tumor','Pituitary' ]

@@ -1,0 +1,12 @@
+path: C:/Users/boume/Multimodal-Diagnosis-by-AI/Data/Output  # Dossier racine où se trouvent 'images' et 'labels'
+train: images/train  # Chemin relatif à 'path' pour les images d'entraînement
+val: images/val   # Chemin relatif à 'path' pour les images de validation
+test: images/test    # Chemin relatif à 'path' pour les images de test (Optionnel mais recommandé)
+
+# ________________ Nombre de classes ________________
+# Définir le nombre total de classes d'objets à détecter.
+nc: 4  # Exemple : Remplacez '2' par le nombre réel de vos classes.
+
+# ________________ Noms des classes ________________
+# Définir le nom de chaque classe dans l'ordre de leur index (commençant à 0).
+names: [ 'Glioma', 'Meningioma','No Tumor','Pituitary' ]

@@ -1,0 +1,15 @@
+# hyp_no_aug.yaml
+
+degrees: 0.0      # rotation
+translate: 0.0    # translation
+scale: 0.0        # scale
+shear: 0.0        # shear
+perspective: 0.0  # perspective
+flipud: 0.0       # flip up-down
+fliplr: 0.0       # flip left-right
+mosaic: 0.0       # mosaic
+mixup: 0.0        # mixup
+hsv_h: 0.0        # hue
+hsv_s: 0.0        # saturation
+hsv_v: 0.0        # value
+
